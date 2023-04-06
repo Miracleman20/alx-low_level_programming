@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
+ *factorial - function to find the factorial of a number
+ *@n: is the variable that holds the number to be factored
  *
- *
- *
- *
- *
+ *Return: Returns 1 on correct execution and -1 for failed execution
  */
 
 int factorial(int n)
