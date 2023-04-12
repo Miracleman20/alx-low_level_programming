@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- *strdup- a function that creates a duplicat string
+ *_strdup- a function that creates a duplicat string
  *@str: is the string to duplicate
  *
  *Return: most return positive values or NULL
