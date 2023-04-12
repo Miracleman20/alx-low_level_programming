@@ -12,16 +12,11 @@
 
 char **strtow(char *str)
 {
-	int i;
-	char *arr;
+	char **word;
 
-	/**
-	 * arr = malloc(sizeof())
-	 */
-
-	if (str == NULL || str == "")
+	if (str == NULL || *str == '\0')
 		return (NULL);
 
-	if (arr == NULL)
+	if (word == NULL)
 		return (NULL);
 }
