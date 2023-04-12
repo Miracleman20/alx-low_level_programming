@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
  *alloc_grid - this allocates and returns the pointer to array
@@ -39,7 +39,7 @@ int **alloc_grid(int width, int height)
 	for (h_index = 0; h_index < height; h_index++)
 	{
 		for (w_index = 0; w_index < width; w_index++)
-			twoD[h_index][w_index] = 0;
+			dim[h_index][w_index] = 0;
 	}
 
 	return (dim);
